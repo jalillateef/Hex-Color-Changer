@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Montserrat:wght@700&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#btn{
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    color: blueviolet;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: tomato;
+    transform: rotate(23px);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
